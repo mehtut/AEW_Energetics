@@ -38,10 +38,10 @@ def lat_lon():
 	lon_east = 20.
 	lat_north = 20. # 25.
 	lat_south = 0. # 5.
-	lat_index_north = np.argmin((np.abs(lat - lat_north)), axis=0)[0]
-	lat_index_south = np.argmin((np.abs(lat - lat_south)), axis=0)[0] 
-	lon_index_west = (np.abs(lon - lon_west)).argmin() 
-	lon_index_east = (np.abs(lon - lon_east)).argmin() 
+	lat_index_north = np.argmin((np.abs(lat_crop - lat_north)), axis=0)[0]
+	lat_index_south = np.argmin((np.abs(lat_crop - lat_south)), axis=0)[0] 
+	lon_index_west = (np.abs(lon_crop - lon_west)).argmin() 
+	lon_index_east = (np.abs(lon_crop - lon_east)).argmin() 
 
 	return lat_crop, lon_crop, lat_index_north, lat_index_south, lon_index_west, lon_index_east
 
