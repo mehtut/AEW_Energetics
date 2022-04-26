@@ -1,0 +1,12 @@
+dependencies:
+  - cartopy>0.20
+  - geos
+  - ipywidgets
+  - matplotlib
+  - netCDF4
+  - numpy
+  - opencv
+  - proj
+  - scipy
+  - wrf-python
+  - xarray
