@@ -1,0 +1,31 @@
+channels:
+  - default
+  - rapidsai
+  - nvidia
+  - conda-forge
+dependencies:
+# gpu/distributed
+  - cudatoolkit=11.5
+  - cudf=22.04
+  - cython
+  - dask-cuda
+  - dask-cudf
+  - dask
+  - distributed
+  - ucx-proc=*=gpu
+  - ucx-py
+# plots
+  - cartopy>0.20
+  - geos
+  - matplotlib
+  - opencv
+  - proj
+# jupyter
+  - ipywidgets
+  - ipykernel
+# data
+  - netCDF4
+  - numpy
+  - scipy
+  - wrf-python
+  - xarray

@@ -1,0 +1,24 @@
+channels:
+  - default
+  - rapidsai
+  - nvidia
+  - conda-forge
+dependencies:
+# distributed
+  - dask
+  - distributed
+# plots
+  - cartopy>0.20
+  - geos
+  - matplotlib
+  - opencv
+  - proj
+# jupyter
+  - ipywidgets
+  - ipykernel
+# data
+  - netCDF4
+  - numpy
+  - scipy
+  - wrf-python
+  - xarray
