@@ -53,11 +53,15 @@ python -m ipykernel install --user --name wrf_eke --display-name wrf_eke
 
 ###### CPU
 ```bash
+module load python
+source activate wrf_eke
 launch-dask-cpu.sh
 ```
 
 ###### GPU
 ```bash
+module load python
+source activate wrf_eke
 launch-dask-gpu.sh
 ```
 
