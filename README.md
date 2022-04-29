@@ -49,6 +49,18 @@ python -m ipykernel install --user --name wrf_eke --display-name wrf_eke
 
 #### 5. How to run
 
+##### From an salloc or sbatch job
+
+###### CPU
+```bash
+launch-dask-cpu.sh
+```
+
+###### GPU
+```bash
+launch-dask-gpu.sh
+```
+
 ##### Command line tool
 
 ```bash
